@@ -1,1 +1,60 @@
-This is for DUCA.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="author" content="Michael Henry">
+    <meta name="description" content="Hey there! My name is Michael Henry and I'm a motivated student with a passion for front-end software development.">
+    <title>Michael Henry</title>
+    <link href="css/normalize.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mhenry.css" rel="stylesheet">
+  </head>
+  <!-- Why does ScrollSpy make my life awful? -->
+  <!-- <body data-spy="scroll" data-target="#navbar" data-offset="75"> -->
+  <body>
+    <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#hello">Michael Henry</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="hello" class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <img src="http://placehold.it/225x225/FFF/333" class="img-circle">
+          </div>
+          <div class="col-md-8">
+            <h1>Hey there!</h1>
+            <p>My name is Michael Henry and I'm a motivated student with a passion for front-end software development.</p>
+            <p><a class="btn btn-primary btn-lg" href="#education">Learn More</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <h1 id="education"><span class="glyphicon glyphicon-book"></span> Education</h1>
+      <h1 id="experience"><span class="glyphicon glyphicon-cog"></span> Experience</h1>
+      <h1 id="skills"><span class="glyphicon glyphicon-wrench"></span> Skills</h1>
+      <h1 id="contact"><span class="glyphicon glyphicon-envelope"></span> Contact</h1>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mhenry.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+body {
+	padding-top: 50px;
+}
+
+.navbar {
+	opacity: 0.97;
+}
+
+a.navbar-brand {
+	font-weight: bold;
+}
+
+.jumbotron {
+	margin: 0;
+}
