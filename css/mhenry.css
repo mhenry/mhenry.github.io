@@ -1,9 +1,10 @@
 body {
 	padding-top: 50px;
+	padding-bottom: 20px;
 }
 
 .navbar {
-	opacity: 0.97;
+	opacity: 0.95;
 }
 
 a.navbar-brand {
