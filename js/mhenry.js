@@ -24,6 +24,25 @@ $(document).ready(function () {
             location.hash = $(this).attr("href");
         }
     });
+
+    $("#send").click(function() {
+        var data = {
+            name: $("#name").val(),
+            email: $("#email").val(),
+            message: $("#message").val()
+        };
+        $.ajax({
+            type: "POST",
+            url: "connect.mhenry.io",
+            data: data,
+            success: function() {
+                alert("Success!");
+            },
+            error:function() {
+                alert("Error!");
+            }
+        });
+    });
 });
 
 (function (i, s, o, g, r, a, m) {

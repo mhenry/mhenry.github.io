@@ -1,6 +1,6 @@
 body {
 	padding-top: 50px;
-	padding-bottom: 20px;
+	padding-bottom: 5px;
 }
 
 .navbar {
@@ -23,4 +23,11 @@ a.navbar-brand {
 
 .experience-buffer {
 	margin-bottom: 10px;
+}
+
+.spacing-fix {
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
 }
