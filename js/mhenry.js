@@ -33,7 +33,7 @@ $(document).ready(function () {
         };
         $.ajax({
             type: "POST",
-            url: "connect.mhenry.io",
+            url: "http://contact.mhenry.io/",
             data: data,
             success: function() {
                 alert("Success!");
