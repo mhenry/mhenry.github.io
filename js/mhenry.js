@@ -34,6 +34,7 @@ $(document).ready(function () {
         $.ajax({
             type: "POST",
             url: "http://contact.mhenry.io/",
+            crossDomain: true,
             data: data,
             success: function() {
                 alert("Success!");
