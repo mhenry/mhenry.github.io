@@ -38,6 +38,7 @@ $(document).ready(function () {
             data: data,
             success: function() {
                 $("form div.col-md-8").prepend('<div class="alert alert-success fade in"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><strong>Success!</strong> We\'ll be in touch soon.</div>');
+                $("form").trigger("reset");
             },
             error:function() {
                 $("form div.col-md-8").prepend('<div class="alert alert-danger fade in"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><strong>D\'oh!</strong> Something went wrong.</div>');
