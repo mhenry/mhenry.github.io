@@ -1,46 +1,46 @@
 body {
-	padding-top: 50px;
-	padding-bottom: 5px;
+  padding-top: 50px;
+  padding-bottom: 5px;
 }
 
 .navbar {
-	opacity: 0.95;
+  opacity: 0.95;
 }
 
 a.navbar-brand {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .jumbotron {
-	margin: 0;
+  margin: 0;
 }
 
 @media (min-width:768px) {
-	.text-right-responsive {
-		text-align:right;
-	}
+  .text-right-responsive {
+    text-align:right;
+  }
 }
 
 .experience-buffer {
-	margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .spacing-fix {
-	margin-left: 0;
-	margin-right: 0;
-	padding-left: 0;
-	padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .social-icons {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 .social-icons a {
-	color: black;
-	text-decoration:none;
+  color: black;
+  text-decoration:none;
 }
 
 .icon-stack {
-	vertical-align: -18%;
+  vertical-align: -18%;
 }
