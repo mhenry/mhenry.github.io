@@ -32,7 +32,7 @@ $(document).ready(function () {
     $.ajax({
       type: "POST",
       url: "//formspree.io/mike@mhenry.io",
-      dataType: "json"
+      dataType: "json",
       data: data,
       success: function() {
         $("form div.col-md-8").prepend('<div class="alert alert-success fade in"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><strong>Success!</strong> We\'ll be in touch soon.</div>');
