@@ -231,21 +231,21 @@
             </a>
           </div>
         </div>
-        <form role="form">
+        <form action="//formspree.io/mhenry.io" method="POST">
           <div class="col-md-8">
             <div class="row">
               <div class="col-md-6 form-group">
-                <input type="text" class="form-control" id="name" placeholder="Name" required />
+                <input type="text" class="form-control" id="_subject" placeholder="Name" required />
               </div>
               <div class="col-md-6 form-group">
-                <input type="email" class="form-control" id="email" placeholder="Email" required />
+                <input type="email" class="form-control" id="_replyto" placeholder="Email" required />
               </div>
             </div>
             <div class="row col-md-12 form-group spacing-fix">
               <textarea class="form-control" rows="4" id="message" placeholder="Message" required></textarea>
             </div>
             <div class="row col-md-12 form-group">
-              <button type="button" class="btn btn-primary" id="send">Send</button>
+              <input type="submit" class="btn btn-primary" value="Send">
             </div>
           </div>
         </form>
