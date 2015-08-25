@@ -27,7 +27,9 @@ $(document).ready(function () {
 
   $("#send").click(function() {
     var data = {
-      message: $("#name").val() + $("#email").val() + $("#message").val()
+      email: $("#email").val(),
+      name: $("#name").val(),
+      message: $("#message").val()
     };
     $.ajax({
       type: "POST",
