@@ -27,14 +27,12 @@ $(document).ready(function () {
 
   $("#send").click(function() {
     var data = {
-      name: $("#name").val(),
-      email: $("#email").val(),
-      message: $("#message").val()
+      message: $("#name").val() + $("#email").val() + $("#message").val()
     };
     $.ajax({
       type: "POST",
-      url: "http://contact.mhenry.io/",
-      crossDomain: true,
+      url: "//formspree.io/mike@mhenry.io",
+      dataType: "json"
       data: data,
       success: function() {
         $("form div.col-md-8").prepend('<div class="alert alert-success fade in"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button><strong>Success!</strong> We\'ll be in touch soon.</div>');
