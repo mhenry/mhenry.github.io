@@ -48,6 +48,11 @@ a.navbar-brand {
   text-decoration: none;
 }
 
+.social-icons a:hover {
+  color: #18bc9c;
+  text-decoration: none;
+}
+
 .icon-stack {
   vertical-align: -18%;
 }
