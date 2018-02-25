@@ -1,11 +1,5 @@
 $(window).load(function() {
   if (document.URL.indexOf('#') == -1) {
-    if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i)) {
-      if (window.pageYOffset < 20) {
-        window.scrollTo(0, 1);
-      }
-    }
-  } else {
     // Better way to offset loading the page by anchor? This jumps when it loads.
     $("html, body").scrollTop($(location.hash).offset().top - 73);
   }
