@@ -3,6 +3,13 @@ body {
   padding-bottom: 5px;
 }
 
+@supports(padding: max(0px)) {
+    .container {
+        padding-left: max(15px, env(safe-area-inset-left));
+        padding-right: max(15px, env(safe-area-inset-right));
+    }
+}
+
 .navbar {
   opacity: 0.95;
 }
