@@ -20,7 +20,7 @@ $(document).ready(function () {
     };
     $.ajax({
       type: "POST",
-      url: "//formspree.io/mike@mhenry.io",
+      url: "https://formspree.io/mpzywglr",
       dataType: "json",
       data: data,
       success: function() {
