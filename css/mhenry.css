@@ -10,10 +10,6 @@ body {
     }
 }
 
-.navbar {
-  opacity: 0.95;
-}
-
 a.navbar-brand {
   font-weight: bold;
 }
